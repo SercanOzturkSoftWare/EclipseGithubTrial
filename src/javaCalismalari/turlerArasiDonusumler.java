@@ -22,11 +22,22 @@ public class turlerArasiDonusumler {
 		 bu işlem için cevabı 510 yapar çünkü 2 tane String tipinden degeri toplamak istersek okutma satırında
 		ikisini yan yana yazar.
 		*/	
+			
+				
+				
+//1. yol  strıng tipinden olan k yi int tipnden olan L ye cevirdik (.valueOf ile ) 
 				String k= "17";
-				int L = Integer.valueOf(k);
-				System.out.println(L);
-		//burada strıng tipinden olan k yi int tipnden olan L ye cevirdik 
+				int l = Integer.valueOf(k);
+				System.out.println(l);
+	
 		 
+//2. Yol olarakta strıng tipinden olan m i int tipnden olan n ye cevirdik (.parseInt ile )
+				String m = "19";
+			int n =	Integer.parseInt(m);
+			System.out.println(n);
+				
+				
+//3.Yol olarakta double tipinden olan Sayi`yi int tipnden olan intSayi`ya cevirdik(parantez icine yazarak)
 				double Sayi = 13.1333d;
 				int intSayi = (int) Sayi;	
 				
